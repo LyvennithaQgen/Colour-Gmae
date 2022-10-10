@@ -93,6 +93,7 @@ struct ContentView: View {
                         .cornerRadius(12)
                         .onTapGesture {
                             timeRemaining = 60
+                            score = 0
                         }
                     
                     
